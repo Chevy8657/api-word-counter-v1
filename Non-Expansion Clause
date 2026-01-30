@@ -1,0 +1,13 @@
+This API does exactly one thing: counts words in a string.
+
+This API will never:
+
+Store data or maintain state
+
+Guess intent or modify input
+
+Add configuration, options, or alternate counting rules
+
+Expand scope beyond the single capability above
+
+If new behavior is required, it must be delivered as a new API.
