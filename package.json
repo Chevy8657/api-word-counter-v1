@@ -1,0 +1,12 @@
+{
+  "name": "api-word-counter-v1",
+  "version": "1.0.0",
+  "description": "Stateless utility API to count words in a string.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
