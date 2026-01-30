@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: api-word-counter-v1
+    env: node
+    plan: free
+    region: virginia
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
+    healthCheckPath: /health
